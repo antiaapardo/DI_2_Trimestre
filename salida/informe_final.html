@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Informe Final de Ventas - Grupo DAM</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .resumen {
+            background: #e8f4fd;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin: 20px 0;
+        }
+        .grafico-container {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Informe Final de Rendimiento de Ventas</h1>
+        <p>Este informe presenta el análisis visual de los datos de ventas procesados, incluyendo la evolución mensual, el rendimiento por comercial y la cuota de mercado en unidades.</p>
+        
+        <div class="resumen">
+            <strong>Resumen Ejecutivo:</strong><br>
+            • Unidades totales: 3070<br>
+            • Importe total: 61400 €<br>
+            • Mejor comercial: Marta
+        </div>
+
+        <h2>1. Evolución Temporal</h2>
+        <p>Tendencia de las unidades vendidas a lo largo de los meses analizados.</p>
+        <div class="grafico-container">
+            <img src="grafico_lineas_unidades.png" alt="Evolución de Unidades">
+        </div>
+
+        <h2>2. Rendimiento Económico por Comercial</h2>
+        <p>Comparativa del importe total generado por cada miembro del equipo.</p>
+        <div class="grafico-container">
+            <img src="grafico_barras_importe_comercial.png" alt="Importe por Comercial">
+        </div>
+
+        <h2>3. Distribución de Unidades</h2>
+        <p>Porcentaje de unidades totales vendidas por cada comercial.</p>
+        <div class="grafico-container">
+            <img src="grafico_sector_unidades.png" alt="Reparto de Unidades">
+        </div>
+
+        <footer>
+            Generado automáticamente por el sistema de análisis Grupo DAM - 21/01/2026
+        </footer>
+    </div>
+</body>
+</html>
